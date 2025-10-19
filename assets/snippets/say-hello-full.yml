@@ -4,7 +4,7 @@ on:
   - push
 jobs:
   dire_bonjour:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 {{- if strings.Contains (.Get "tags") "container" }}
     container:
       image: ghcr.io/cicd-lectures/gitpod:latest
@@ -16,7 +16,7 @@ jobs:
       - run: echo "Bonjour 👋"
 {{- end }}
 {{- if strings.Contains (.Get "tags") "checkout" }}
-      - uses: actions/checkout@v4 # Récupère le contenu du dépôt correspondant au commit du workflow en cours
+      - uses: actions/checkout@v5 # Récupère le contenu du dépôt correspondant au commit du workflow en cours
 {{- end }}
 {{- if strings.Contains (.Get "tags") "show-readme" }}
       - run: ls -l # Liste les fichier du répertoire courant
