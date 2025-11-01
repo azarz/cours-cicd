@@ -16,7 +16,7 @@ C'est du code qui:
 
 - Crée les conditions d'un cas de test (**given**)
 - Appelle le système testé (**when**)
-- Valide les résultats retourné et les effets de bords du système (**then**)
+- Valide les résultats retournés et les effets de bords du système (**then**)
 
 ---
 
