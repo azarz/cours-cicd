@@ -437,7 +437,7 @@ ENTRYPOINT ["node", "/app/dist/index.js"]
 
 ---
 
-## Est'ce que c'est efficace?
+## Est-ce que c'est efficace?
 
 - L'image finale fait ~273Mb
 - Mais on embarque toutes nos dépendances (y compris celles de dev!) et nos fichiers de configurations!
