@@ -62,6 +62,18 @@ VSCode devrait apparaitre et devrait vous proposer de réouvrir le projet dans u
 
 ---
 
+## Docker Fix 🔥 🔥
+
+Dans le terminal VSCode
+
+```bash
+sudo usermod -a -G docker $USER
+```
+
+Et on se log out / Log in
+
+---
+
 ## Checkpoint 🎯
 
 - Vous devriez pouvoir taper la commande `whoami` dans le terminal de VSCode:
