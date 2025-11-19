@@ -94,7 +94,7 @@ Nous allons avoir besoin d'intéragir avec GitHub depuis notre DevContainer, nou
 1. Dans le terminal de VSCode on tapez la commande suivante:
 
 ```bash
-gh auth login --git-protocol ssh --hostname github.com --web`
+gh auth login --git-protocol ssh --hostname github.com --web
 ```
 
 2. On accepte de générer une nouvelle clé SSH pour le compte

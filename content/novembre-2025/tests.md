@@ -180,7 +180,7 @@ Pourtant le shortcode donné est `abbc`, du coup le serveur devrait accepter cet
 
 ---
 
-- `./src/controller/create.ts` L46 est problèmatique
+- `./src/controller/create.ts` L41 est problèmatique
 - Ce qui fait que `validateRequestPayload` retourne une violation L16
 - Et du coup le controller jette une instance de `AppError`
 - La correction est facile à faire...
@@ -484,7 +484,8 @@ curl localhost:8080/vehicles | jq .
 ---
 
 - La fonction `newVehicleFromRow` mélange la longitude avec la latitude (L90-91)
-- Faites la correction, mais essayons d'écrire un test d'intégration pour que cela ne se reproduise plus!
+- Essayons d'écrire un test d'intégration pour que cela ne se reproduise plus!
+- Une fois le test écrit, on peut coriger le code
 - Nous allons écrire un test sur la fonctionnalité "trouver les vehicules les plus proches"
   - `GET /vehicles?lat=xxx&long=xxx&limit=10`
 

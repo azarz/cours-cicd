@@ -1,6 +1,4 @@
 {{- if strings.Contains (.Get "tags") "imports" -}}
-/* eslint-disable @typescript-eslint/require-await, @typescript-eslint/no-unsafe-argument */
-
 import {expect, jest, test} from '@jest/globals';
 import { Pool } from 'pg';
 import { Request, Response } from 'express';
