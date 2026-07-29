@@ -11,20 +11,13 @@ weight = 20
 
 ---
 
-## Julien Levesy
+## Amaury Zarzelli
 
-- Software Engineer @[ExaTrack](https://exatrack.com/) 🐛
+- Chef de projet développement à l'IGN, au sein de l'équipe Géoplateforme
 
 - Me contacter
-  - {{< icon familly="solid" name="envelope" >}}jlevesy \<chez\> gmail.com
-  - {{< icon familly="brands" name="linkedin" >}}[LinkedIn](https://www.linkedin.com/in/julien-levesy-5b80ab149/)
-  - {{< icon familly="brands" name="github" >}}[GitHub](https://github.com/jlevesy)
-
----
-
-## Et vous?
-
-{{< figure src="/images/youreup.gif" width=800 >}}
+  - {{< icon familly="solid" name="envelope" >}}amaury.zarzelli \<chez\> ign.fr
+  - {{< icon familly="brands" name="github" >}}[GitHub](https://github.com/azarz)
 
 ---
 
@@ -33,14 +26,8 @@ weight = 20
 * Alternance de théorie et de pratique pour être le plus interactif possible
 * Reproductible à la maison, pensé dans le contexte du "Covid à la maison"
 * Contenu entièrement libre et open-source.
-  * Le code source est visible [ici](https://github.com/cicd-lectures/cicd-lectures.github.io)
+  * Le code source est visible [ici](https://github.com/azarz/cours-cicd)
 * Le cours va donner lieu a un projet en guise d'evaluation.
   * Les details vous seront donnés en fin de cours.
-
----
-
-## Avant de Commencer...
-
-- Comment souhaitez vous gérer les pauses midi?
 
 {{% /section %}}

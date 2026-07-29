@@ -7,10 +7,10 @@ weight = 10
 
 ## Introduction au CI/CD
 
-#### ENSG Novembre 2025
+#### Géodata Paris janvier 2027
 
 {{% small %}}
-- Presentation disponible a l'adresse: [{{% ref "/novembre-2025" %}}]({{% ref "/novembre-2024" %}})
+- Presentation disponible a l'adresse: [{{% ref "/janvier-2027" %}}]({{% ref "/janvier-2027" %}})
 - This work is licensed under a Creative Commons Attribution 4.0 International License
 {{% /small %}}
 
