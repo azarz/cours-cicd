@@ -1,8 +1,11 @@
-baseURL = 'https://cicd-lectures.github.io/'
-languageCode = 'fr-FR'
+baseURL = 'https://azarz.github.io/cours-cicd/'
+locale = 'fr-FR'
 title = 'Introduction au CI/CD'
-theme = ["github.com/dzello/reveal-hugo"]
+theme = ["github.com/joshed-io/reveal-hugo"]
 enableGitInfo = true
+
+[params.author]
+name = "Julien Levesy"
 
 [outputFormats.Reveal]
 baseName = "index"
