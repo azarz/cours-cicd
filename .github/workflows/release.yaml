@@ -29,12 +29,12 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.150.0'
+          hugo-version: '0.164.0'
           extended: true
       - name:  Build Website
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload Artifact
+      - name: Upload Artifactgit s
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
